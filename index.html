@@ -16,18 +16,29 @@
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
-            Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            Name: <input type="text" name="name" required>
+            <br> 
+            E-mail: <input type="email" name="email"><br>
 
             <!--add your own inputs below-->
+            
+            What is your favorite basketball team: <input type="text" name="team" placeholder="team"><!--text-->
+            <br>
+            <input type="radio" name="gender" value="male" > Male<!--radio-->
+            <br>
+            <input type="radio" name="gender" value="female" > Female<!--radio-->
+            <br>
+            <input type="radio" name="gender" value="other"> Other
+            <br>
 
-
-
-
-
-
-
+            Who is your favorite player in the nba? <input type="text" name="player" placeholder="player"><!--text-->
+            <br>
+            What team is most likely to win the championships?
+            <select name="team">
+                <option value="GSW" selected> Golden State Warriors</option>
+                <option value="Spurs"> Spurs </option>
+                <option value="Chicago Cavaliers">Chicago Cavaliers</option>
+            </select>
 
             <!--add your own inputs above-->
 
